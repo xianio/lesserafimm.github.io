@@ -1,0 +1,132 @@
+/*this website is for project purpose only*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Noto+Sans+JP:wght@100&family=Work+Sans:wght@100&display=swap');
+
+/* CSS document profile*/
+
+
+
+body.overall {
+    display: block;
+    background-size: contain;
+	font-family: "Work Sans";
+    font-family: "Noto Sans JP";
+	text-align: center;
+    margin: 0; padding: 0;
+    font-weight: bold;
+}
+.stage {
+    font-family: Noto Sans JP;
+}
+a {
+    text-decoration: none;
+     color: #111;
+    }
+
+title { 
+	margin-top:50px;
+	width:100%;
+	text-align:center;
+ }
+ .title {
+     font-family: 'Work Sans';
+ }
+ 
+
+/*NavBar*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(38 30 38);
+	width: 100%;
+	text-align:center;
+    font-family: 'Work Sans';
+
+}
+
+
+li {
+    float: left;
+	color: #fff;
+	padding: 15px;
+}
+
+
+li.active { color:rgba(179, 79, 172, 0.733); }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h3 {
+   margin-left: auto;
+ margin-right: auto;
+    text-align: center;
+    margin: auto;
+}
+
+mark {
+   background-color: #c1c9d9;
+   padding: -0%;
+   
+}
+
+.buttons {
+    color: #000;
+    text-decoration: none;
+    font-size: 1cm;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.buttons:hover {
+    color: #808ca5;
+    transition: 0.3s;
+}
+
+#stream {
+    float: right;
+}
+
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #8c99b3;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #9ca9c2;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  h4.facts {
+      font-weight: bolder;
+      font-size: larger;
+      margin-bottom: -1%;
+  }
+  
+  footer.footer {
+    font-family: 'Work Sans';
+  }
+
+
+    /*this website is for project purpose only*/

@@ -1,0 +1,138 @@
+/*this website is for project purpose only*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Work+Sans:wght@100&display=swap');
+
+/* CSS document profile*/
+
+.profileCard {font-family: "Work Sans"; font-size:38px;}
+
+body.overall {
+    display: block;
+    background-size: contain;
+	font-family: "Work Sans";
+	text-align: center;
+    margin: 0; padding: 0;
+    font-weight: bold;
+}
+a {
+text-decoration: none;
+ color: #111;
+}
+.chaewon {
+color: #000;
+    
+}
+.chaewon:hover {
+    color: #aebfb3;
+    transition: 0.3s
+    
+}
+.sakura {
+    color: 000;
+}
+
+.sakura:hover {
+    color: #e6c8d6;
+    transition: 0.3s;
+
+}
+.yunjin {
+    color: #000;
+}
+.yunjin:hover {
+
+    color: #f0e8b4;
+    transition: 0.3s;
+}
+.kazuha {
+    color: #000;
+}
+.kazuha:hover {
+    color: #edd6c5;
+    transition: 00.3s;
+}
+.garam {
+    color: #000;
+}
+.garam:hover {
+    color: #c1c9d9;
+    transition: 0.3s;
+}
+.eunchae {
+    color: #000;
+}
+.eunchae:hover {
+    color: #d0cce0;
+    transition: 0.3s;
+}
+
+title { 
+	margin-top:50px;
+	width:100%;
+	text-align:center;
+ }
+ 
+
+/*NavBar*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(38 30 38);
+	width: 100%;
+	text-align:center;
+}
+
+/*this website is for project purpose only*/
+
+li {
+    float: left;
+	color: #fff;
+	padding: 15px;
+}
+
+li.active { color:rgba(179, 79, 172, 0.733); }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.media {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    align-content: center;
+    padding: 1cm;
+}
+
+.content {
+    text-align: left;
+    padding: 1cm;
+    align-self: center;
+    background: rgba(255,255,255, 0.8)
+}
+
+#stream {
+    float: right;
+}
+
+#chaewon 
+    {background-image: url(/img/members-pic/chaewon.webp)}
+#sakura 
+    {background-image: url(/img/members-pic/sakura.webp)}
+#yunjin 
+    {background-image: url(/img/members-pic/yunjin.png)}
+#kazuha
+    {background-image: url(/img/members-pic/kazuha1.png)}
+#garam 
+    {background-image: url(/img/members-pic/garam.png)}
+#eunchae
+    {background-image: url(/img/members-pic/enchae.png)}
+
+
+    /*this website is for project purpose only*/

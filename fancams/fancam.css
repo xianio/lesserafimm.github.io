@@ -1,0 +1,92 @@
+/*this website is for project purpose only*/
+@charset "UTF-8";
+/* CSS document fancam */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Work+Sans:wght@100&display=swap');
+
+
+
+body.overall {
+	font-family: "Work Sans";
+	text-align:center;
+    margin: 0; padding: 0;
+    font-weight: bold;
+    
+}
+
+title { 
+	margin-top:50px;
+	width:100%;
+	text-align:center;
+ }
+
+ mark.chaewon {
+     background-color: #aebfb3;
+ }
+ mark.sakura {
+     background-color: #e6c8d6;
+ }
+ mark.yunjin {
+     background-color: #f0e8b4;
+ }
+ mark.kazuha {
+     background-color: #edd6c5;
+ }
+ mark.garam {
+     background-color: #c1c9d9;
+ }
+ mark.eunchae {
+     background-color: #d0cce0;
+ }
+
+/*NavBar*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(38 30 38);
+	width: 100%;
+	text-align:center;
+}
+
+li {
+    float: left;
+	color: #fff;
+	padding: 15px;
+}
+
+li.active { color:rgba(179, 79, 172, 0.733); }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    align-content: center;
+    padding: 1cm;
+    
+}
+
+.summary {
+    text-align: left;
+    font-weight: bold;
+    padding: 1cm;
+    align-self: center;
+    background: rgba(255,255,255, 0.8)
+}
+
+#stream {
+    float: right;
+}
+/* this website is for project purpose only */

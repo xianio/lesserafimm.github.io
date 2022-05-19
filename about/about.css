@@ -1,0 +1,75 @@
+/*this website is for project purpose only*/
+@charset "UTF-8";
+/* CSS document about*/
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Work+Sans:wght@100&display=swap');
+
+body.absolute {
+	background-image:url(img/loona.png);
+	background-repeat:no-repeat;
+	font-family: "Work Sans";
+	text-align:center;
+    margin: 0; padding: 0;
+    font-weight: bold;
+}
+
+title { 
+	margin-top:50px;
+	width:100%;
+	text-align:center;
+ }  
+
+/*nav   bar*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(38 30 38);
+	width: 100%;
+	text-align:center;
+}
+
+li {
+    float: left;
+	color: #fff;
+	padding: 15px;
+}
+
+li.active { color:rgba(179, 79, 172, 0.733); }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#stream {
+    float: right;
+}
+
+.container {
+    padding-left: 4cm; padding-right: 4cm;
+    text-align: center;
+    font-size: 30px;
+    
+}
+ 
+.members {
+    padding-left: 4cm; padding-right: 4cm;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    text-decoration-color: #111;
+    color: rgba(10, 9, 10, 0.877);
+}
+/*this website is for project purpose only*/
